@@ -8,7 +8,13 @@ export default {
     extend: {
       fontFamily: {
         'Inter': ['"Inter"'],
+        'Inter-SemiBold': ['"Inter-SemiBold"'],
+        'Inter-Bold': ['"Inter-Bold"'],
       },
+      colors:{
+        'Primary': '#5C59E8',
+        'Neutral': '#667085'
+      }
     },
   },
   plugins: [],

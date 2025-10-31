@@ -10,4 +10,27 @@
       font-display: swap;
       src: url(/public/font/Inter_18pt-Regular.ttf) format('truetype');
     }
+    @font-face {
+      font-family: 'Inter-SemiBold';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(/public/font/Inter_18pt-SemiBold.ttf) format('truetype');
+    }
+    @font-face {
+      font-family: 'Inter-Bold';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(/public/font/Inter_24pt-Bold.ttf) format('truetype');
+    }
   }
+
+
+.menu-active{
+  background-color: #5C59E8;
+  color: white;
+}
+.menu-active svg path{
+  fill: white;
+}
